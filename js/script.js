@@ -4,7 +4,7 @@ function initMap() {
     zoom: 8    });
     
     var infoWindow = new google.maps.InfoWindow({
-      content: 'Lincoln Park Zoo';
+      content: 'Lincoln Park Zoo'
       });
     
     var marker = new google.maps.Marker({
