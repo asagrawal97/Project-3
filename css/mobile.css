@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .cover{
     width: 90%;
     margin-left: 5%;
@@ -33,3 +33,39 @@
     padding: 10px;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .cover{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+  
+  .witch, .magic, .fever{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+  
+  .about, .education, .skill, .work, .info{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    font-size: 100%;
+  }
+  
+  .cover, .pictures{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .cheesecake, .santa, .cupcake{
+    font-size: small;
+    border-radius: 4px;
+    padding: 10px;
+  }
+}  
