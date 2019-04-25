@@ -120,16 +120,9 @@ a:hover, a:active {
   text-decoration: none;
 }
 
-.wrapper {
-  width: 800px;
-  height: 600px;
-  background-color: gray;
-  margin: auto;
-  overflow: hidden;
-}
 
 .map {
-  width: 700px;
-  height: 500px;
-  margin: 50px auto;
+  width: 50%;
+  height: 600px;
+  margin: auto;
 }
