@@ -1,19 +1,17 @@
 function initMap() {
-  var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 41.921057, lng: -87.633503},
-    zoom: 8    });
+  var zoo = {lat: 41.921057, lng: -87.633503}
+  var map = new google.maps.Map(document.getElementById('map'), {center:zoo,zoom: 18});
     
-    var infoWindow = new google.maps.InfoWindow({
-      content: 'Lincoln Park Zoo'
-      });
-    
-    var marker = new google.maps.Marker({
-      position: center,
-      map: map,
-      icon: 'pics/map.png'
-    });
-    
-    marker.addListener('click', function() {
-      infoWindow.open(map, marker);
-    });
-  }
+  var marker = new google.maps.Marker({
+    position: zoo,
+    map: map,
+    icon: 'pics/map.png'
+  });
+  var infoWindow = new google.maps.InfoWindow({
+    content: 'Lincoln Park Zoo'
+  });
+  marker.addListener('click', function() {
+    infoWindow.open(map, marker);
+  });
+}
+google.maps.event.addDomListener(window,'load',init);
