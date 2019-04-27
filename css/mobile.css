@@ -11,6 +11,7 @@
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
+    
   }
   
   .about, .education, .skill, .work, .info{
@@ -47,12 +48,13 @@
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
+    font-size: 70%;
   }
   
   .about, .education, .skill, .work, .info{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: left;
     font-size: 100%;
   }
